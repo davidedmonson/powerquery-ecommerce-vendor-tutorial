@@ -1,0 +1,1 @@
+=LEFT(CELL("filename",$A$1),FIND("[",CELL("filename",$A$1),1)-1)
